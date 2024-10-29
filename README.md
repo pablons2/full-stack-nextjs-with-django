@@ -1,6 +1,6 @@
 # Project Management System
 
-Este repositório contém uma aplicação para cadastro e gerenciamento de projetos, que implementa uma arquitetura limpa, dividindo responsabilidades entre front-end e back-end, com centralização de APIs pelo **Krakend**. A aplicação permite gerenciar diferentes perfis de usuários (admin, gerente e operador) e simula autenticação com **NextAuth** e **Keycloak**.
+Este repositório contém uma aplicação para cadastro e gerenciamento , que implementa uma arquitetura limpa, dividindo responsabilidades entre front-end e back-end, com centralização de APIs pelo **Krakend**. A aplicação permite gerenciar diferentes perfis de usuários (admin, gerente e operador) e simula autenticação com **NextAuth** e **Keycloak**.
 
 ## 📋 Funcionalidades
 

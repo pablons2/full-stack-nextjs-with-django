@@ -1,0 +1,38 @@
+{
+    "version": 3,
+    "name": "Project API Gateway",
+    "port": 8080,
+    "endpoints": [
+      {
+        "endpoint": "/projects",
+        "method": "GET",
+        "output_encoding": "json",
+        "extra_config": {},
+        "backend": [
+          {
+            "url_pattern": "/api/projects",
+            "encoding": "json",
+            "host": [
+              "http://localhost:8000"
+            ]
+          }
+        ]
+      },
+      {
+        "endpoint": "/auth/login",
+        "method": "POST",
+        "output_encoding": "json",
+        "extra_config": {},
+        "backend": [
+          {
+            "url_pattern": "/login",
+            "encoding": "json",
+            "host": [
+              "http://localhost:8001"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
